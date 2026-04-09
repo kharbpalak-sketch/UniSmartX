@@ -196,10 +196,5 @@ project/
 * 📊 Real-time analytics dashboard
 * 🤖 AI-based insights
 
----
-
-## 📜 Note
-
-This project is open-source and available for educational purposes.
 
 

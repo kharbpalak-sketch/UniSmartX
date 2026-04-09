@@ -1,84 +1,167 @@
 # 🎓 UniSmartX – Smart University Management System
 
-UniSmartX ek modern web-based university management system hai jo students, faculty aur admin ke operations ko efficiently manage karne ke liye design kiya gaya hai. Ye system real-time monitoring, automation aur user-friendly dashboard provide karta hai.
+A modern and scalable **frontend-based university management system** designed for **Bhagat Phool Singh Mahila Vishwavidyalaya (BPSMV)**.
+It integrates **department management** and **hostel management** into a single smart platform.
 
 ---
 
-## 🚀 Live Demo
-🔗 https://year-flow-hub.lovable.app/
+## 📖 Description
+
+UniSmartX is a smart UI-based system that simplifies university operations by providing structured workflows for students, faculty, hostel staff, and administrators.
+
+The project demonstrates how a real-world university system can digitally manage:
+
+* Academic operations
+* Hostel processes
+* Student services
+* Administrative controls
 
 ---
 
-## 📂 GitHub Repository
-🔗 https://github.com/kharbpalak-sketch/UniSmartX
+## 🌐 Live Demo
+
+👉 https://year-flow-hub.lovable.app/
+
+## ✨ Screenshots
+
+<img width="1917" height="866" alt="Screenshot 2026-04-09 145757" src="https://github.com/user-attachments/assets/d81801f6-42eb-4090-9658-6c90b1272014" />
+<img width="1914" height="871" alt="Screenshot 2026-04-09 145852" src="https://github.com/user-attachments/assets/9176d5dc-09b2-48cf-96eb-008eac782eef" />
+<img width="1911" height="852" alt="Screenshot 2026-04-09 150059" src="https://github.com/user-attachments/assets/b64a1b27-2bd5-4078-a7dd-462d597d3153" />
+<img width="1600" height="722" alt="image" src="https://github.com/user-attachments/assets/52e2870e-8daf-4a33-b4a7-88c0738da0d1" />
 
 ---
 
-## 💻 Tech Stack
-
-- ⚛️ Frontend: React.js  
-- 🟢 Backend: Node.js  
-- 📜 Language: JavaScript  
-- 🎨 UI: Modern Dashboard Design  
-
----
-
-## ✨ Features
-
-### 📊 Dashboard
-- Real-time university stats  
-- Total students, attendance %, faculty overview  
+## ✨ Key Features
 
 ### 🏫 Department Management
-- Department-wise student tracking  
-- Attendance marking (Present / Absent)  
 
-### 📅 Timetable System
-- Daily class schedule  
-- Cancel / Reschedule options  
-
-### 👨‍👩‍👧 Parents Portal
-- Leave approval system  
-- Face verification for security  
-
-### 🏠 Hostel & Leave Management
-- Hostel student tracking  
-- Leave request handling  
-
-### 📥 CSV Export (Excel Support)
-- Attendance data CSV file me export hota hai  
-- Direct Microsoft Excel me open ho jata hai  
-- Easy reporting & analysis  
+* Multiple departments (BCA, B.Tech, etc.)
+* 📅 Timetable management
+* 📊 Attendance tracking
+* 👩‍🏫 Faculty information
+* 📝 Complaint system
 
 ---
 
-## 📸 Screenshots
+### 🏠 Hostel Management
 
-### Dashboard
-![Dashboard](https://via.placeholder.com/800x400?text=Dashboard)
-
-### Department Detail
-![Department](https://via.placeholder.com/800x400?text=Department+Detail)
-
-### Timetable
-![Timetable](https://via.placeholder.com/800x400?text=Timetable)
-
-### Parents Portal
-![Parents](https://via.placeholder.com/800x400?text=Parents+Portal)
+* 🛏️ Room & student records interface
+* 📊 Hostel attendance
+* 🍽️ Mess menu display
+* 📝 Complaint system
+* 🚪 Online leave application system
 
 ---
 
-## 🛠️ Installation & Setup
+### 🔐 Smart Leave Approval System
 
-```bash
-# Clone the repository
-git clone https://github.com/kharbpalak-sketch/UniSmartX.git
+* Face recognition (guardian verification concept)
+* Parent approval (online consent)
+* Warden approval (final decision)
+* Real-time leave status tracking
 
-# Go to project folder
-cd UniSmartX
+---
 
-# Install dependencies
-npm install
+### 📊 Student Dashboard
 
-# Run the project
-npm start
+* 📅 Today’s classes
+* 🗓️ Calendar view
+* 📊 Attendance percentage
+* 🔔 Notifications
+* 📄 Leave status (approved / pending)
+
+---
+
+### 🛠️ Admin Control Panel
+
+* 📢 Send announcements
+* ➕ Add / Update / Delete data
+* 🔄 Semester / yearly data reset
+* 🍽️ Update hostel mess menu
+
+---
+
+### 🌐 Multi-Language Support
+
+* English
+* Hindi
+
+---
+
+## 🔄 System Flow
+
+```
+University System  
+   │  
+   ├── Departments  
+   │     ├── Attendance  
+   │     ├── Timetable  
+   │     ├── Faculty  
+   │     └── Complaints  
+   │  
+   ├── Hostel  
+   │     ├── Attendance  
+   │     ├── Mess Menu  
+   │     ├── Complaints  
+   │     └── Leave System  
+   │             ├── Face Recognition  
+   │             ├── Parent Approval  
+   │             └── Warden Approval  
+   │  
+   ├── Student Dashboard  
+   │     ├── Classes  
+   │     ├── Attendance %  
+   │     ├── Notifications  
+   │     └── Leave Status  
+   │  
+   └── Admin Panel  
+         ├── Announcements  
+         ├── Data Management  
+         └── System Updates  
+```
+
+## 🛠️ Tech Stack
+
+* HTML
+* React.js
+* CSS
+* JavaScript
+* Backend (server / logic) → Node.js
+
+---
+
+## 📂 Project Structure
+
+```
+project/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── README.md
+```
+
+## 📊 Use Cases
+
+* University digital management systems
+* Hostel automation systems
+* Student service platforms
+* UI/UX prototype for real-world applications
+
+---
+
+## 🚀 Future Enhancements
+
+* 🔗 Backend integration (Node.js / Django)
+* 🗄️ Database (MySQL / MongoDB)
+* 🔐 Authentication system
+* 📊 Real-time analytics dashboard
+* 🤖 AI-based insights
+
+---
+
+## 📜 Note
+
+This project is open-source and available for educational purposes.
+
+

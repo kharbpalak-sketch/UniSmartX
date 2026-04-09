@@ -18,6 +18,12 @@ The project demonstrates how a real-world university system can digitally manage
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://year-flow-hub.lovable.app/
+
+---
+
 ## ✨ Key Features
 
 ### 🏫 Department Management
@@ -117,12 +123,6 @@ University System
 
 ---
 
-## 🌐 Live Demo
-
-👉 https://year-flow-hub.lovable.app/
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -173,13 +173,6 @@ index.html
 
 ---
 
-## 👩‍💻 Author
-
-**Palak Kharb**
-Aspiring Data Analyst
-
----
-
-## 📜 License
+## 📜 Note
 
 This project is open-source and available for educational purposes.
